@@ -1,0 +1,228 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("assets/decorative-shape-2.svg");
+  background-size: 53.125rem;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 0.4375rem 1.125rem;
+}
+
+header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+main {
+  flex: 2;
+  padding: 1.25rem;
+}
+
+.intro-section {
+  text-align: center;
+}
+
+.intro-logo {
+  max-width: 9.375rem;
+  margin-bottom: 1.25rem;
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+}
+
+.intro-section p {
+  font-size: 1rem;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 20px); /* 3 cards per row with space between */
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0.9375rem;
+  height: 7.5rem;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  max-width: 3.125rem;
+  margin-right: 0.9375rem;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info h5 {
+  font-size: 1.125rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card-info p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background: rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  transform: translateX(-100%) translateY(-100%);
+  z-index: 0;
+}
+
+.card:hover::before {
+  transform: translateX(0) translateY(0);
+}
+
+.card:hover {
+  background-color: #008c8d;
+  color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.card > * {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  padding: 0.3125rem 1.25rem;
+  border: none;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 0.9375rem;
+}
+
+.footer-logos img {
+  max-width: 4.375rem;
+  height: 1.875rem;
+  transition: transform 0.3s;
+}
+
+.footer-logos img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsif untuk layar tablet dan mobile */
+@media (max-width: 1024px) {
+  .cards-section {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1 1 calc(50% - 1.125rem); /* 2 cards per row with space between */
+    height: auto;
+    margin-bottom: 1.25rem;
+  }
+
+  .footer-content {
+    flex-direction: column; /* Stack footer content vertically */
+    text-align: center;
+  }
+
+  .footer-logos {
+    justify-content: center;
+    margin-top: 0.625rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: top-left;
+    background-size: 37.5rem;
+    background-attachment: fixed;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .intro-section h1 {
+    font-size: 1.875rem;
+  }
+
+  .intro-section p {
+    font-size: 0.875rem;
+  }
+
+  .cards-section {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1 1 calc(50% - 1.25rem); /* 2 cards per row with space between */
+    height: 7.5rem;
+    margin-bottom: 1.25rem;
+    padding: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .card img {
+    max-width: 2.1875rem;
+    height: auto;
+    margin-right: 0.9375rem;
+  }
+
+  .card-info h5 {
+    font-size: 0.875rem;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .card-info p {
+    font-size: 0.6875rem;
+  }
+
+  .footer-content p {
+    font-size: 0.75rem;
+  }
+}
