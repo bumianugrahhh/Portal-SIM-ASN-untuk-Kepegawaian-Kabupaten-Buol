@@ -18,4 +18,12 @@ Portal SIM-ASN adalah sebuah sistem informasi manajemen Aparatur Sipil Negara (A
 # Website Overview
 ![alt text](https://github.com/bumianugrahhh/SIM-ASN-Portal-for-Buol-District-Staffing/blob/main/assets/Overview%20Portal%20SIM-ASN.png)
 
+# Fitur Utama
+- Manajemen Kinerja dan TPP ASN: Mengelola dan memantau Tunjangan Penghasilan Pegawai (TPP) serta kinerja ASN secara terintegrasi.
+- Sistem Cuti dan Disiplin: Mengelola pengajuan cuti dan disiplin ASN dengan sistem otomatis yang terintegrasi.
+- Aplikasi Persuratan Terintegrasi: Mempermudah pembuatan, pengiriman, dan pengelolaan surat menyurat dinas.
+- Penyusunan Pola Karir dan Diklat: Mengelola tugas belajar dan diklat ASN serta penyusunan pola karir yang terencana.
+- Sistem Penilaian Kinerja ASN: Alat untuk penyusunan dan penilaian kinerja ASN secara real-time.
+- Rekonsiliasi Data Gaji: Rekonsiliasi data gaji ASN secara otomatis untuk memastikan akurasi dan ketepatan pembayaran.
+- Integrasi dengan MyASN dan Sistem Pusat: Terhubung dengan sistem pusat (BKN) seperti MyASN, SIMPEGNAS, SI-ASN dan E-Kinerja untuk pengelolaan data ASN yang lebih luas.
 
