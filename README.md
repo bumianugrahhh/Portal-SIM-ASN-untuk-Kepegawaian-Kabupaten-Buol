@@ -16,4 +16,6 @@ untuk meningkatkan efisiensi dan efektivitas dalam pengelolaan administrasi, pen
 Portal SIM-ASN adalah sebuah sistem informasi manajemen Aparatur Sipil Negara (ASN) berbasis web yang dikembangkan untuk memudahkan pengelolaan manajemen kepegawaian di Kabupaten Buol. Portal ini mengintegrasikan berbagai aplikasi kepegawaian untuk meningkatkan efisiensi dan efektivitas dalam pengelolaan administrasi, penilaian kinerja, persuratan, cuti, mutasi, dan berbagai layanan lainnya bagi ASN. Dengan Portal SIM-ASN, pengelolaan data kepegawaian menjadi lebih terstruktur, cepat, dan mudah diakses dalam mendukung Sistem Pemerintahan Berbasis Elektronik (SPBE).
 
 # Website Overview
+![alt text](https://github.com/bumianugrahhh/SIM-ASN-Portal-for-Buol-District-Staffing/blob/main/assets/Overview%20Portal%20SIM-ASN.png)
+
 
